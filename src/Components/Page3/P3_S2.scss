@@ -1,0 +1,66 @@
+.Sec32{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .main{
+        width: 1085px;
+        height: 690px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .txt{
+            width: 520px;
+            height: 690px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            h1{
+                font-size: 80px;
+                color: #311F09;
+                span{
+                    color: #FF8A00;
+                }
+            }
+            p{
+                font-size: 40px;
+                color: #000000;
+            }
+            .Turn{
+                width: 500px;
+                height: 369px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                p1{
+                    font-size: 30px;
+                    color: #5C4529;
+                }
+                .coms{
+                    width: 500px;
+                    height: 200px;
+                    display: flex;
+                    align-items: end;
+                    p{
+                        font-size: 60px;
+                        color: #FFE8CC;
+                    }
+                }
+                .coms2{
+                    width: 500px;
+                    height: 200px;
+                    display: flex;
+                    font-size: 60px;
+                    align-items: start;
+                    justify-content: end;
+                    color: #FFE8CC;
+                    p{
+                        font-size: 60px;
+                        color: #FFE8CC;
+                    }
+                }
+            }
+        }
+    }
+}

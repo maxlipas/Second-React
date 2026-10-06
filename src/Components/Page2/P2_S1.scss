@@ -1,0 +1,128 @@
+.Sec3{
+    width: 100%;
+    height: 1900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .Menu{
+        width: 80%;
+        height: 1800px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        h1{
+            color: #311F09;
+            font-size: 80px;
+        }
+        .nav{
+            width: 100%;
+            height: 75px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .knop{
+                width: 230px;
+                height: 75px;
+                background-color: #D0CCC7;
+                color: black;
+                border: none;
+                border-radius: 30px;
+                font-size: 20px;
+                cursor: pointer;
+            }
+            .knop:hover{
+                background-color: #311F09;
+                color: white;
+            }
+        }
+        .list{
+            width: 1200px;
+            height: 1315px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            .kont{
+                width: 345px;
+                height: 640px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-around;
+                background-color: #FBFAFA;
+                border-radius: 60px;
+                h1{
+                    font-size: 30px;
+                    color: #311F09;
+                }
+                p{
+                    color: #59442B;
+                    font-size: 20px;
+                    text-align: center;
+                }
+                .bott{
+                    width: 270px;
+                    height: 55px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    color: #311F09;
+                    font-size: 25px;
+                    .knop{
+                    width: 160px;
+                    height: 55px;
+                    font-size: 20px;
+                    background-color: #FF8A00;
+                    border-radius: 30px;
+                    border: none;
+                    cursor: pointer;
+                    color: white;
+                    }
+                }
+            }
+        }
+        .sepiya{
+            width: 435px;
+            height: 55px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .cifra{
+                width: 55px;
+                height: 55px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: #FF8A00;
+                font-size: 20px;
+                border-radius: 15px;
+                background-color: #FFF4E6;
+            }
+            .toch{
+                width: 55px;
+                height: 55px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: none;
+                color: gray;
+                font-size: 26px;
+            }
+            .str{
+                width: 55px;
+                height: 55px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 15px;
+                background-color: #311F09;
+                cursor: pointer;
+                p{
+                    color: white;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
