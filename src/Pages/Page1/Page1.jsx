@@ -6,7 +6,7 @@ import P1_S4 from "../../Components/Page1/P1_S4"
 import P1_S5 from "../../Components/Page1/P1_S5"
 import P1_S6 from "../../Components/Page1/P1_S6"
 import P1_S7 from "../../Components/Page1/P1_S7"
-
+import P1_S8 from "../../Components/Page1/P1_S8"
 export default function Page1(){
     return(<>
     
@@ -17,7 +17,7 @@ export default function Page1(){
     <P1_S5/>
     <P1_S6/>
     <P1_S7/>
-    
+    <P1_S8/>
     
     </>)
 }
