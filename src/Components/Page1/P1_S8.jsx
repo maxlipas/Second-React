@@ -34,7 +34,7 @@ export default function P1_S8() {
           </div>
         </div>
 
-        {/* ... остальные 4 блока без изменений ... */}
+        
       </div>
 
   );
